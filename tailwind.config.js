@@ -9,10 +9,11 @@ export default {
       colors: {
         myBeige: '#A69F95',
         myGray:  '#7A7A7A',
-        myBlue: '#606B73'
+        myBlue: '#606B73',
+        myWhite: '#d9d9d9'
       }
     },
-    
+   
   },
   plugins: [],
 }
