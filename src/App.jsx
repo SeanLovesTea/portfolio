@@ -1,34 +1,49 @@
 import Header from './Header'
-import Section_project from './Section_project'
+import Project_section from './Project_section'
 
 function App() {
 
   return (
     <>
       <Header />
-      <Section_project
-        backgroundColor={'red-300'}
-        reversed={true}
-        projectTitle={'this'}
-        description={'blablabla'}
-        outcomes={{
-          point1: 'point1',
-          point2: 'point2',
-          point3: 'point3',
-        }}
-        image={'image'}
-        github={'github'}
-        liveURL={'liveUrl'}
-        techUsed={{
-          1: 'js',
-          2: 'node',
-          3: 'typeScript',
-          4: 'react'
-        }}
+      <Project_section
+        backgroundColor={'myWhite'}
+        borderColor={'black'}
+        textColor={'myBlue'}
+        image={'#'}
+        description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem fuga minus impedit sint voluptates sequi rem, commodi nesciunt tenetur atque obcaecati voluptatibus facilis minima hic veniam, ipsum suscipit ullam!'}
+        smallDescriton={'Lorem ipsum dolor sit amet consectetur adipisicing'}
+        points={['point 1 bla bla', 'point 2 bla bla', 'point 3  hjs hlakjsd']}
+        techstack={['Js', 'React', 'Node', 'Mongodb']}
+        github={'www.github.com/seanlovestea'}
+        liveSite={'#'}
+        reversed={false}
       />
-      <Section_project
-      backgroundColor={'blue-400'}
-      reversed={false}
+      <Project_section
+        backgroundColor={'myBlue'}
+        borderColor={'myBeige'}
+        textColor={'white'}
+        image={'#'}
+        description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem fuga minus impedit sint voluptates sequi rem, commodi nesciunt tenetur atque obcaecati voluptatibus facilis minima hic veniam, ipsum suscipit ullam!'}
+        smallDescriton={'Lorem ipsum dolor sit amet consectetur adipisicing'}
+        points={['point 1 bla bla', 'point 2 bla bla', 'point 3  hjs hlakjsd']}
+        techstack={['Js', 'React', 'Node', 'Mongodb']}
+        github={'www.github.com/seanlovestea'}
+        liveSite={'#'}
+        reversed={true}
+      />
+      <Project_section
+        backgroundColor={'myBeige'}
+        borderColor={'myBlue'}
+        textColor={'black'}
+        image={'#'}
+        description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim exercitationem fuga minus impedit sint voluptates sequi rem, commodi nesciunt tenetur atque obcaecati voluptatibus facilis minima hic veniam, ipsum suscipit ullam!'}
+        smallDescriton={'Lorem ipsum dolor sit amet consectetur adipisicing'}
+        points={['point 1 bla bla', 'point 2 bla bla', 'point 3  hjs hlakjsd']}
+        techstack={['Js', 'React', 'Node', 'Mongodb']}
+        github={'www.github.com/seanlovestea'}
+        liveSite={'#'}
+        reversed={false}
       />
     </>
   )
