@@ -13,13 +13,10 @@ function Project_section({
   liveSite,
   reversed,
 }) {
-
+  
   return (
     <>
-    {/* <div className='bg-myBeige border-myBeige text-myBeige'></div>
-    <div className='bg-myBlue border-myBlue text-myBlue'></div>
-    <div className='bg-myGray border-myGray text-myGray'></div>
-    <div className='bg-myWhite border-myWhite text-myWhite'></div> */}
+
       <div className={`h-screen ${backgroundColor ? `bg-${backgroundColor}` : ''} ${textColor ? `text-${textColor}` : ''}`}>
         <div className='flex flex-col p-8 h-full w-full'>
           <div className={`flex ${reversed && 'flex-row-reverse'} h-full w-full`}>
